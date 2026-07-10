@@ -150,13 +150,18 @@ activemq-data/
 # Environments
 .env
 .envrc
-.venv
-env/
+
+# Virtual Environments
+myenv/
+.venv/
 venv/
+env/
 ENV/
 env.bak/
 venv.bak/
 
+# Visual Studio Code
+.vscode/
 
 # Spyder project settings
 .spyderproject
@@ -217,3 +222,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LangGraph / AI Project
+langgraph.db
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
